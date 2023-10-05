@@ -56,3 +56,70 @@ nav {
     text-transform: uppercase;
     background-color: hsl(0, 0%, 100%);
 }
+
+.text {
+    width: 50%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text p {
+    color:  hsl(167, 40%, 24%);
+
+
+}
+  
+
+.text-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.glass-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.glass-img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.apple-orange {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.apple-orange .apple img {
+    width: 100%;
+    height: 100%;
+}
+
+.apple-orange .orange img {
+    width: 100%;
+}
+.apple-orange .apple {
+    position: relative;
+}
+
+.apple-orange .A-text {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    right: 30px;
+
+}
