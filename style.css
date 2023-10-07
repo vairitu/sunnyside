@@ -12,6 +12,7 @@ body {
 
 .hero {
     position: relative;
+    display: flex;
 }
 
 
@@ -70,6 +71,12 @@ nav {
 
 
 }
+
+.text-image {
+    display: flex;
+    width: 50%;
+    flex-shrink: 0;
+}
   
 
 .text-image img {
@@ -114,6 +121,10 @@ nav {
 }
 .apple-orange .apple {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .apple-orange .A-text {
@@ -122,4 +133,26 @@ nav {
     left: 30px;
     right: 30px;
 
+}
+.apple-orange .orange {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.apple-orange .o-text {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    right: 30px;
+
+}
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials .Emily img {
+  width: 20px;
 }
