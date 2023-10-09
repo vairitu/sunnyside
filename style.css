@@ -10,11 +10,19 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    line-height: 1.5;
+}
+
 .hero {
     position: relative;
     display: flex;
 }
 
+
+span {
+    margin-bottom: 20%;
+}
 
 .hero-img {
     width: 100vw;
@@ -69,7 +77,6 @@ nav {
 .text p {
     color:  hsl(167, 40%, 24%);
 
-
 }
 
 .text-image {
@@ -95,7 +102,15 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100vw;
 }
+
+.glass-img {
+    display: flex;
+    width: 50%;
+    flex-shrink: 0;
+}
+
 
 .glass-img img {
     width: 100%;
@@ -129,11 +144,16 @@ nav {
 
 .apple-orange .A-text {
     position: absolute;
-    bottom: 40px;
-    left: 30px;
-    right: 30px;
+    bottom: 20%;
+    left: 25%;
+    right: 25%;
 
 }
+
+.apple-orange .A-text h1 {
+    margin-bottom: 15px;
+}
+
 .apple-orange .orange {
     position: relative;
     display: flex;
@@ -141,18 +161,50 @@ nav {
     align-items: center;
     text-align: center;
 }
-.apple-orange .o-text {
-    position: absolute;
-    bottom: 50px;
-    left: 30px;
-    right: 30px;
 
-}
 .testimonials{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10% 10%;
+    gap: 5%;
 }
-.testimonials .Emily img {
-  width: 20px;
+
+.client h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+
+.testimonials .emily img {
+  width: 65px;
+  border-radius: 50%;
+  margin-bottom: 45px;
+}
+.testimonials .emily p {
+    line-height: 1.8;
+}
+
+
+
+.testimonials .thomas img {
+    width: 65px;
+    border-radius: 50%;
+    margin-bottom: 45px;
+}
+
+.testimonials .thomas p {
+    line-height: 1.8;
+}
+
+.testimonials .jennie img {
+    width: 65px;
+    border-radius: 50%;
+    margin-bottom: 45px;
+}
+
+.testimonials .jennie p {
+    line-height: 1.8;
 }
