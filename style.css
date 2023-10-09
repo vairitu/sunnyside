@@ -208,3 +208,56 @@ nav {
 .testimonials .jennie p {
     line-height: 1.8;
 }
+.testimonials .Emily img {
+  width: 20px;
+}
+
+.footer-img {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.footer-img .milk-bottle {
+    width: 25%;
+    height: auto;
+}
+.footer-img .santra {
+    width: 25%;
+}
+
+
+.footer-img .ice-cone {
+    width: 25%;
+}
+
+.footer-img .sugar {
+    width: 25%;
+}
+
+.footer-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    gap: 30px;
+    padding: 30px;
+    width: 100vw;
+}
+.footer h3{
+  text-align: center;
+}
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
