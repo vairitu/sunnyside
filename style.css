@@ -26,11 +26,6 @@ p {
     display: flex;
 }
 
-
-span {
-    margin-bottom: 20%;
-}
-
 .hero-img {
     width: 100vw;
     height: 100vh;
@@ -185,8 +180,27 @@ nav {
     margin-top: 10%;
 }
 
+.testimonials .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
-.testimonials .Emily img {
+.testimonials .card p {
+    text-align: center;
+}
+
+.testimonials .card img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* .testimonials .Emily img {
     width: 65px;
     border-radius: 50%;
     margin-bottom: 45px;
@@ -220,7 +234,7 @@ nav {
 
 .testimonials .Emily img {
     width: 65px;
-}
+} */
 
 .footer-img {
     display: flex;
@@ -286,4 +300,84 @@ nav {
     align-items: center;
     gap: 20px;
     padding: 30px;
+}
+
+.test {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.test .test-card {
+    min-width: 200px;
+    height: 200px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.test .card-1 {
+    background-color: red;
+}
+.test .card-2 {
+    background-color: blue;
+}
+.test .card-3 {
+    background-color: green;
+}
+.test .card-4 {
+    background-color: orange;
+}
+
+/* Mobile code from here */
+
+@media only screen and (max-width:850px) {
+    .nav-elements {
+        display: none;
+    }
+
+    .image-text {
+        flex-direction: column-reverse;
+    }
+
+    .text-image {
+        width: 100%;
+    }
+
+    .text {
+        width: calc(100% - 120px);
+    }
+
+    .glass-text {
+        flex-direction: column;
+    }
+
+    .glass-img {
+        width: 100%;
+    }
+
+    .apple-orange {
+        flex-direction: column;
+    }
+
+    .apple-orange .A-text {
+        bottom: 10%;
+        left: 10%;
+        right: 10%;
+    }
+
+    .testimonials {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-img {
+        flex-wrap: wrap;
+    }
+
+    .footer-img .img-container {
+        width: 50%;
+    }
+
+    .footer {
+        width: calc(100vw - 60px);
+    }
 }
