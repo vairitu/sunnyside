@@ -393,4 +393,8 @@ nav {
         left: 3%;
         right: 3%;
     }
+
+    .apple-orange .A-text h1 {
+        margin-bottom: 5px;
+    }
 }
